@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Bookmarklet. Delete spam on forum</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.21" />
+</head>
+
+<body>
+
+<a href="javascript:(window.onload = function() {var a = document.getElementsByTagName('a');for(var i = 0; i < a.length; i++){var m = a[i].innerHTML.toLowerCase();var s = /(50[\s,.:;+*#@\t-]*грн)|(плимова[\s,.:;+*#@\t1-9-]*)|(ка[\s\t+-]24)|(трусиш)|(зу[а-я\s\t+-]*ка)|(ролик)|(жаб)|(кольцов)|(умываль)|(антон)|(лабут)/i.test(m);if(s) {a[i].innerHTML = '';}}})();">Delete spam</a>
+</body>
+</html>
